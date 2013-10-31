@@ -22,6 +22,21 @@ model.Coop = require('Model/Coop');
 model.Coop.addAttribute("address", "relatedEntity", "Address", "Address");
 model.Address.addAttribute("coops", "relatedEntities", "Coop", "address", {reversePath:true});
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //model.Address.addAttribute("coop", "relatedEntity", "Coop", "address");
 
 //model.Coop.address = new Attribute("relatedEntity", "Address", "Address");
